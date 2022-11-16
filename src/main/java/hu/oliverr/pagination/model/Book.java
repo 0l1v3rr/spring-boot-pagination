@@ -38,6 +38,6 @@ public class Book {
 
     @NonNull
     @ManyToOne
-    @JoinColumn(name = "author_id")
+    @JoinColumn(name = "author_id", referencedColumnName = "id")
     private Author author;
 }
