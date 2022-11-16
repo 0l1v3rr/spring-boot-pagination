@@ -30,7 +30,7 @@ public class Book {
     private Long id;
 
     @NonNull
-    @Column(name = "title", length = 32)
+    @Column(name = "title", length = 1024)
     private String title;
 
     @NonNull

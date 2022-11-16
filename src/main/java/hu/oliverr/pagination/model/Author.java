@@ -28,10 +28,10 @@ public class Author {
     private Long id;
 
     @NonNull
-    @Column(name = "first_name", length = 32)
+    @Column(name = "first_name", length = 64)
     private String firstName;
 
     @NonNull
-    @Column(name = "last_name", length = 32)
+    @Column(name = "last_name", length = 64)
     private String lastName;
 }
